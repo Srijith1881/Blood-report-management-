@@ -27,7 +27,7 @@ const Patientlogin = () => {
         <div className=" h-[50%] w-[30%] bg-red z-50 flex flex-col  bg-white  shadow-lg rounded-md">
             <div className="w-full h-[15%] flex flex-row justify-start px-10 items-center border-2 text-red-600 bg-[#ffe7cd] text-xl font-bold ">
                 <div className="w-1/2">
-                    Employee's Login
+                    User's Login
                 </div>
                 <div className="w-1/2 flex justify-end ">
                     <CircleX onClick={() => navigate("/")}/>

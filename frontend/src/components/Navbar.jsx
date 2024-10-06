@@ -33,11 +33,11 @@ const Navbar = () => {
                                     </div>
                                 </div>
                                 <div className="flex flex-col items-center mt-10 space-y-4">
-                    <button className="w-2/3 bg-red-600 hover:bg-red-950 text-white font-bold py-2 px-4 rounded"onClick={() => navigate("/employeelogin")}>
+                    <button className="w-2/3 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"onClick={() => navigate("/employeelogin")}>
                         Employee Login
                     </button>
-                    <button className="w-2/3 bg-red-600 hover:bg-red-950 text-white font-bold py-2 px-4 rounded"onClick={() => navigate("/patientlogin")}>
-                        Patient Login
+                    <button className="w-2/3 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"onClick={() => navigate("/patientlogin")}>
+                        User Login
                     </button>
                 </div>
                                 
